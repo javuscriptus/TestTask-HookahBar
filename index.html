@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+    <!-- Главный блок -->
+    <section class="home">
+        <!-- TODO: "Переделать отображение фоновых изображений"-->
+        <img class="smoke-img" src="/img/smoke.svg" alt="smoke">
+        <img class="city-img" src="/img/city.svg" alt="city">
+        <!-- Шапка сайта -->
+        <header class="header container">
+            <!-- Логотип -->
+            <div class="logo">
+                <div class="image">
+                    <img src="/img/logo.svg" alt="Logo">
+                </div>
+            </div>
+            <!-- Блок Навигации -->
+            <nav class="navigation">
+                <span class="logo-text">Дым Кудрявый</span>
+                <!-- Социальные сети -->
+                <div class="social">
+                    <svg class="vk-icon">
+                        <use xlink:href="/img/sprite.svg#vk"></use>
+                    </svg>
+
+                    <svg class="facebook-icon">
+                        <use xlink:href="/img/sprite.svg#facebook"></use>
+                    </svg>
+
+                    <svg class="instagram-icon">
+                        <use xlink:href="/img/sprite.svg#instagram"></use>
+                    </svg>
+                </div>
+                <!-- Меню -->
+                <menu class="navigation-list">
+                    <li><a href="#">О клубе</a></li>
+                    <li><a href="#">Интерьер</a></li>
+                    <li><a href="#">Меню</a></li>
+                    <li><a href="#">Преимущества</a></li>
+                    <li><a href="#">Новости</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </menu>
+            </nav>
+        </header>
+        <!-- Промо блок -->
+        <section class="promo container">
+            <!-- Блок с заголовком -->
+            <div class="heading">
+                <h1 class="title">
+                    Самый шикарный курительный клуб Урала
+                </h1>
+            </div>
+            <!-- Блок с контактами -->
+            <div class="contacts">
+                <div class="phone">
+                    <svg class="phone-icon ">
+                        <use xlink:href="/img/sprite.svg#phone"></use>
+                    </svg>
+                    <p>+7 (343) 298-98-88</p>
+                </div>
+                <div class="schedule">
+                    <svg class="time-icon">
+                        <use xlink:href="/img/sprite.svg#time"></use>
+                    </svg>
+                    <div>
+                        <p>вс-чт с 16:00 до 00:00</p>
+                        <p>пт-сб с 16:00 до 04:00</p>
+                    </div>
+                </div>
+                <div class="location">
+                    <svg class="pointer-icon">
+                        <use xlink:href="/img/sprite.svg#pointer"></use>
+                    </svg>
+                    <div>
+                        <p>Екатеринбург,</p>
+                        <p>БЦ Высоцкий, 50 этаж</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </section>
+
+    <!-- Блок "О клубе" -->
+    <section class="about ">
+        <div class="container">
+            <div class="info">
+                <div>
+                    <h2>Возраждаем традицию</h2>
+                    <p>Сигара в достойной компании, оттененная бокалом бренди, всегда была не только обязательным
+                        атрибутом джентльмена, но и данью традициям. Поклонники сигар встречались в курительных клубах,
+                        обсуждали последние новости и вершили судьбы мира. Прошло время, и теперь традицию курительных
+                        клубов возрождает «Дым кудрявый» в Екатеринбурге.</p>
+                </div>
+                <img src="/img/hookah.svg" alt="hookah">
+            </div>
+            <div class="features">
+                <div class="feature">
+                    <h4>Услуги</h4>
+                    <p>Серьезная сигарная карта и достойный выбор кальянов – standart, premium или de luxe.
+                        Всегда в наличии элитный алкоголь, который составляет отличную партию сигарам. Всем,
+                        кто за рулем бармен предложит авторский чай.</p>
+                </div>
+                <div class="feature">
+                    <h4>Развлечения</h4>
+                    <p>В клубе «Дым кудрявый» установлены плазменные панели, на которых можно посмотреть спортивный
+                        матч. Также в гостевом зале вы найдете шахматы и шашки, в том числе интересные авторские
+                        коллекции.</p>
+                </div>
+                <div class="feature">
+                    <h4>Для кого</h4>
+                    <p>Курительный клуб №1 «Дым кудрявый» создан для деловых и неформальных встреч.
+                        В отличии от традиционных английских курительных клубов, заведение
+                        в Екатеринбурге ждет и джентльменов, и леди.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Блок карусель\слайдер интерьера -->
+    <section class="interior">
+        <div class="container">
+            <div class="title-block">
+                <h2>Интерьер</h2>
+                <div class="walkthrough">
+                    <button disabled>
+                        <div class="left-arrow"></div>
+                    </button>
+                    <button>
+                        <div class="right-arrow"></div>
+                    </button>
+                </div>
+            </div>
+            <div class="slideshow">
+                <img src="/img/interior1.svg" alt="Image 1">
+                <img src="/img/interior2.svg" alt="Image 2">
+                <img src="/img/interior3.svg" alt="Image 3">
+                <img src="/img/interior4.svg" alt="Image 4">
+            </div>
+        </div>
+    </section>
+
+    <!-- Блок с меню -->
+    <section class="menu container">
+
+        <h2>Меню</h2>
+        <!-- <div class="tabs">
+            <div class="tab active">
+                <h4>Фирменные кальяны</h4>
+            </div>
+            <div class="tab">Сигары и сигарилы</div>
+            <div class="tab">Классические кальяны</div>
+        </div> -->
+
+        <div class="tabs">
+            <input type="radio" name="tab-btn" id="tab-btn-1" checked>
+            <label for="tab-btn-1">
+                <h4>Фирменные кальяны</h4>
+            </label>
+            <input type="radio" name="tab-btn" id="tab-btn-2">
+            <label for="tab-btn-2">
+                <h4>Сигары и сигарилы</h4>
+            </label>
+            <input type="radio" name="tab-btn" id="tab-btn-3">
+            <label for="tab-btn-3">
+                <h4>Классические кальяны</h4>
+            </label>
+
+            <div id="content-1" class="content">
+                <div class="items">
+                    <div class="item">
+                        <div class="top">
+                            <div class="title">«Баунти»</div>
+                            <div class="price">3000 ₽</div>
+                        </div>
+                        <div class="description">
+                            <p><span>Добавки:</span> шоколад, молоко, кокосовый сироп</p>
+                            <p><span>Чаша:</span> ананас</p>
+                            <p><span>Крепость:</span> средняя</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="top">
+                            <div class="title">«Мохито»</div>
+                            <div class="price">3000 ₽</div>
+                        </div>
+                        <div class="description">
+                            <p><span>Добавки:</span> мята, лайм, белый ром и много-много льда</p>
+                            <p><span>Чаша:</span> яблоко, апельсин, грейпфрут</p>
+                            <p><span>Крепость:</span> крепкий</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="top">
+                            <div class="title">«Пина колада»</div>
+                            <div class="price">3000 ₽</div>
+                        </div>
+                        <div class="description">
+                            <p><span>Добавки:</span> молоко, ананасовый сок, кокосовый сироп, лед</p>
+                            <p><span>Чаша:</span> ананас</p>
+                            <p><span>Крепость:</span> средняя</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="content-2" class="content">
+                <div class="items">
+                    <div class="item">
+                        <div class="top">
+                            <div class="title">«Мохито»</div>
+                            <div class="price">3000 ₽</div>
+                        </div>
+                        <div class="description">
+                            <p><span>Добавки:</span> мята, лайм, белый ром и много-много льда</p>
+                            <p><span>Чаша:</span> яблоко, апельсин, грейпфрут</p>
+                            <p><span>Крепость:</span> крепкий</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="top">
+                            <div class="title">«Баунти»</div>
+                            <div class="price">3000 ₽</div>
+                        </div>
+                        <div class="description">
+                            <p><span>Добавки:</span> шоколад, молоко, кокосовый сироп</p>
+                            <p><span>Чаша:</span> ананас</p>
+                            <p><span>Крепость:</span> средняя</p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="top">
+                            <div class="title">«Пина колада»</div>
+                            <div class="price">3000 ₽</div>
+                        </div>
+                        <div class="description">
+                            <p><span>Добавки:</span> молоко, ананасовый сок, кокосовый сироп, лед</p>
+                            <p><span>Чаша:</span> ананас</p>
+                            <p><span>Крепость:</span> средняя</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="content-3" class="content">
+                <div class="items">
+                    <div class="item">
+                        <div class="top">
+                            <div class="title">«Пина колада»</div>
+                            <div class="price">3000 ₽</div>
+                        </div>
+                        <div class="description">
+                            <p><span>Добавки:</span> молоко, ананасовый сок, кокосовый сироп, лед</p>
+                            <p><span>Чаша:</span> ананас</p>
+                            <p><span>Крепость:</span> средняя</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="top">
+                            <div class="title">«Баунти»</div>
+                            <div class="price">3000 ₽</div>
+                        </div>
+                        <div class="description">
+                            <p><span>Добавки:</span> шоколад, молоко, кокосовый сироп</p>
+                            <p><span>Чаша:</span> ананас</p>
+                            <p><span>Крепость:</span> средняя</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="top">
+                            <div class="title">«Мохито»</div>
+                            <div class="price">3000 ₽</div>
+                        </div>
+                        <div class="description">
+                            <p><span>Добавки:</span> мята, лайм, белый ром и много-много льда</p>
+                            <p><span>Чаша:</span> яблоко, апельсин, грейпфрут</p>
+                            <p><span>Крепость:</span> крепкий</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <img src="/img/ashtray.svg" width="187.55" height="165.68" alt="ashtray">
+    </section>
+
+    <!-- Блок с преимуществами -->
+    <section class="advantages">
+        <img class="searchlight" src="/img/searchlight.jpg" alt="searchlight">
+        <div class="container justify-end d-flex">
+            <div class="info">
+                <div class="title-block">
+                    <h2>У нас уютно</h2>
+                    <img src="/img/leaf.svg" alt="leaf">
+                </div>
+                <div class="description">
+                    <div class="point">
+                        <img src="/img/mark.svg" alt="">
+                        <p>Шикарный вид на город с 50-го этажа БЦ «Высоцкий»</p>
+                    </div>
+                    <div class="point">
+                        <img src="/img/mark.svg" alt="">
+                        <p>Авторские миксы, которые меняются каждый месяц и способны удовлетворить каждого
+                            требовательного гостя</p>
+                    </div>
+                    <div class="point">
+                        <img src="/img/mark.svg" alt="">
+                        <p>Уникальная атмосфера уединения и комфорта</p>
+                    </div>
+                    <div class="point">
+                        <img src="/img/mark.svg" alt="">
+                        <p>Персонал — подготовленные мастера своего дела</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Блок новостей -->
+    <section class="news">
+        <div class="container">
+            <div class="title-block">
+                <h2>Новости</h2>
+                <div class="walkthrough">
+                    <button disabled>
+                        <div class="left-arrow"></div>
+                    </button>
+                    <button>
+                        <div class="right-arrow"></div>
+                    </button>
+                </div>
+            </div>
+            <div class="slideshow">
+                <div class="item">
+                    <img src="/img/news1.jpg" alt="news 1">
+                    <time datetime="04-08">8 апреля</time>
+                    <h4>Наш курительный клуб ежедневно работает с 16:00</h4>
+                </div>
+                <div class="item">
+                    <img src="/img/news2.jpg" alt="news 2">
+                    <time datetime="03-25">24 марта</time>
+                    <h4>Дорогие гости, по выходным наш курительный клуб работает до 4 утра</h4>
+                </div>
+                <div class="item">
+                    <img src="/img/news3.jpg" alt="news 3">
+                    <time datetime="03-12">12 марта</time>
+                    <h4>Готовимся к вечеру с сигарами Davidoff</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="more-detailed">
+        <div class="container d-flex justify-between align-center">
+            <div class="info">
+                <h3>Наш клуб входит в состав ресторана Panorama ASP</h3>
+                <p>Поэтому гости могут не только насладиться дымным, но и попробовать самые разнообразные коктейли, а
+                    также вкусно поесть</p>
+            </div>
+            <button class="btn wenge-btn">Подробнее о ресторане <img src="/img/arrow_right.svg" alt="arrow"></button>
+        </div>
+    </section>
+
+    <footer>
+        <img class="map" src="/img/map.svg" alt="">
+        <div class="contacts">
+            <div class="title-block">
+                <h2>Контакты</h2>
+                <img src="/img/lighter.svg" alt="ashtray">
+            </div>
+            <div class="info">
+                <div class="phone">
+                    <div class="icon">
+                        <svg class="phone-icon ">
+                            <use xlink:href="/img/sprite.svg#phone"></use>
+                        </svg>
+                    </div>
+                    <p>+7 (343) 298-98-88</p>
+                </div>
+                <div class="location">
+                    <div class="icon">
+                        <svg class="pointer-icon">
+                            <use xlink:href="/img/sprite.svg#pointer"></use>
+                        </svg>
+                    </div>
+                    <div>
+                        <p>Екатеринбург, ул. Малышева 51,</p>
+                        <p>БЦ Высоцкий, 50 этаж</p>
+                    </div>
+                </div>
+                <div class="schedule">
+                    <div class="icon">
+                        <svg class="time-icon">
+                            <use xlink:href="/img/sprite.svg#time"></use>
+                        </svg>
+                    </div>
+                    <div>
+                        <p>вс-чт с 16:00 до 00:00</p>
+                        <p>пт-сб с 16:00 до 04:00</p>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button class="btn granite-btn">
+                        <svg class="facebook-icon">
+                            <use xlink:href="/img/sprite.svg#facebook"></use>
+                        </svg>
+                        Facebook
+                    </button>
+                    <button class="btn granite-btn">
+                        <svg class="instagram-icon">
+                            <use xlink:href="/img/sprite.svg#instagram"></use>
+                        </svg>
+                        Instagram
+                    </button>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

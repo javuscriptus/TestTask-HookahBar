@@ -1,0 +1,55 @@
+.promo {
+    margin-top: 115px;
+    // TODO: "Переделать отображение фоновых изображений"
+    position: relative;
+    z-index: 1;
+
+    .heading {
+        width: 387.18px;
+        height: 351px;
+        background: none;
+        color: #ffffff;
+        vertical-align: middle;
+        border: 7px solid #6C525B;
+        padding: 90px 0;
+
+        .title {
+            margin: 0;
+            width: 796.42px;
+            color: #FFFFFF;
+        }
+    }
+
+    .contacts {
+        width: 673.04px;
+        margin-top: 85px;
+        border-top: 1px solid #4D515E;
+        display: flex;
+        justify-content: space-between;
+        color: #C8CDD8;
+        padding-top: 30px;
+
+        svg {
+            margin-top: 3px;
+        }
+
+        .phone {
+            font-weight: 700;
+            display: flex;
+
+            p {
+                margin-left: 8px;
+            }
+        }
+
+        .schedule,
+        .location {
+            font-size: 14px;
+
+            div {
+                float: right;
+                margin-left: 10px;
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+.about {
+    display: flex;
+
+    .info {
+        display: flex;
+        align-items: center;
+        margin-top: 71px;
+
+        h2 {
+            margin-bottom: 40px;
+        }
+
+        p {
+            line-height: 26px;
+        }
+    }
+
+
+    .features {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 28.08px;
+        margin-bottom: 110px;
+
+        .feature {
+            width: 30%;
+            border-top: 1px solid #BDC4CF;
+
+            h4 {
+                margin-top: 38px;
+                margin-bottom: 27px;
+            }
+
+            p {
+                font-size: 14px;
+                color: #585E67;
+            }
+        }
+    }
+}

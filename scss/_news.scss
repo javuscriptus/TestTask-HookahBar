@@ -1,0 +1,76 @@
+.news {
+    margin-top: 112px;
+
+    .title-block {
+        display: flex;
+        justify-content: space-between;
+
+        button {
+            display: inline-flex;
+            position: relative;
+            width: 34px;
+            height: 43px;
+            background-color: transparent;
+            border: 1px solid #585E67;
+            cursor: pointer;
+        }
+
+        .left-arrow::before,
+        .right-arrow::before {
+            position: absolute;
+            display: inline-flex;
+            width: 14px;
+            height: 14px;
+            content: '';
+        }
+
+        .left-arrow::before {
+            top: 13px;
+            right: 6px;
+            border-top: 1px solid #D5D9E3;
+            border-left: 1px solid #D5D9E3;
+            transform: rotate(-45deg);
+        }
+
+        .right-arrow::before {
+            top: 13px;
+            left: 6px;
+            border-top: 1px solid #2B2D33;
+            border-right: 1px solid #2B2D33;
+            transform: rotate(45deg);
+        }
+
+        /* Иземнение цвета стрелки и границ при наведении */
+        button:hover,
+        button:hover>.left-arrow::before,
+        button:hover>.right-arrow::before {
+            border-color: #18191d;
+        }
+
+        button[disabled],
+        button[disabled]>.left-arrow::before,
+        button[disabled]>.right-arrow::before {
+            border-color: #8E9199;
+            cursor: not-allowed;
+        }
+    }
+
+    .slideshow {
+        margin-top: 45px;
+        display: flex;
+
+        .item {
+            img {
+                width: 380px;
+                height: 265px;
+                margin-right: 30px;
+                margin-bottom: 21px;
+            }
+
+            h4 {
+                margin-top: 14px;
+            }
+        }
+        
+    }
+}

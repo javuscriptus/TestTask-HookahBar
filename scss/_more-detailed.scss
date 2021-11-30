@@ -1,0 +1,30 @@
+.more-detailed {
+    margin-top: 111px;
+    width: 100%;
+    height: 236px;
+    background-image: url(/img/more-about-bg.jpg);
+    background-size: 100%;
+    
+    .container {
+        height: 100%;
+    }
+
+    .info {
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        flex-direction: column;
+        width: 685px;
+        align-items: flex-start;
+
+        h3 {
+            color: #fff;
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: #C8CDD8;
+        }
+    }
+
+}

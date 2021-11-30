@@ -1,0 +1,69 @@
+footer {
+    display: flex;
+    .map {
+        height: 100%;
+    }
+
+    .contacts {
+        padding: 100px 0 120px 72px;
+    
+        .title-block {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+    
+            h2 {
+                margin-right: 90px;
+            }
+        }
+    
+        .info {
+    
+            .location,
+            .schedule,
+            .phone {
+                display: flex;
+    
+                svg {
+                    margin-right: 8px;
+                }
+            }
+    
+            .phone {
+                font-weight: 700;
+            }
+    
+            .location {
+                margin: 25px 0;
+            }
+    
+            .phone-icon,
+            .pointer-icon,
+            .time-icon {
+                fill: #2B2D33;
+            }
+    
+            .buttons {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 60px;
+    
+                svg {
+                    fill: #6A6F7D;
+                    margin-right: 15px;
+                }
+    
+    
+                .facebook-icon {
+                    width: 12px;
+                    height: 26px;
+                }
+    
+                .instagram-icon {
+                    width: 21px;
+                    height: 20px;
+                }
+            }
+        }
+    }
+}

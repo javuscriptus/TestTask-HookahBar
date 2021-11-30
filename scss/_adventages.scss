@@ -1,0 +1,47 @@
+.advantages {
+    display: flex;
+    align-items: center;
+    height: 659px;
+    margin-top: 120px;
+    position: relative;
+
+    .searchlight {
+        position: absolute;
+        height: 659;
+    }
+
+    .info {
+        position: relative;
+        z-index: 1;
+        width: 664px;
+        background-color: #30333B;
+        padding: 60px;
+
+        .title-block {
+            display: flex;
+            justify-content: space-between;
+
+            h2 {
+                color: #FFFFFF;
+            }
+        }
+
+        .description {
+            margin-top: 50px;
+
+            .point {
+                display: flex;
+                align-items: center;
+
+                p {
+                    color: #fff;
+                    margin-left: 23px;
+                }
+            }
+
+            .point:not(:last-child) {
+                margin-bottom: 32px;
+            }
+        }
+    }
+}

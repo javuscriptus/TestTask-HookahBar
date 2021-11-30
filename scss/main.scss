@@ -1,0 +1,185 @@
+@font-face {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    src: url(/fonts/Montserrat/Montserrat-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    src: url(/fonts/Montserrat/Montserrat-Medium.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    src: url(/fonts/Montserrat/Montserrat-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: 400;
+    src: url(/fonts/Merriweather/Merriweather-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: 700;
+    src: url(/fonts/Merriweather/Merriweather-Bold.ttf) format('truetype');
+}
+
+*,
+*::before,
+::after {
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+body {
+    background-color: #AAADB7;
+}
+
+p {
+    margin: 0;
+    font-size: 15px;
+    line-height: 23.4px;
+}
+
+li {
+    list-style-type: none;
+}
+
+time {
+    font-size: 14px;
+    line-height: 19.46px;
+    color: #6C525B;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: Merriweather;
+    margin: 0;
+    color: #2B2D33;
+}
+
+h1 {
+    font-size: 58px;
+    line-height: 85px;
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 52.49px;
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 34.39px;
+}
+
+h4 {
+    font-size: 18px;
+    line-height: 25.45px;
+}
+
+.home {
+    background-color: #30333C;
+    height: 870px;
+    // TODO: "Переделать отображение фоновых изображений"
+    position: relative;
+
+    .smoke-img {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+    .city-img {
+        position: absolute;
+        right: 0;
+        // box-shadow: 0px 100px 52px -9px rgba(0, 0, 0, 0.1) inset;
+    }
+
+    @import "_header";
+    @import "_promo";
+}
+
+@import "_about";
+@import "_interior";
+@import "_menu";
+@import "_adventages";
+@import "_news";
+@import "_more-detailed";
+@import "_footer";
+
+.pointer-icon,
+.time-icon,
+.phone-icon {
+    width: 18px;
+    height: 21px;
+    fill: #A9AEB8;
+}
+
+
+.btn {
+    height: 61px;
+    min-width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 29px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.wenge-btn {
+    background-color: #6C525B;
+
+    img {
+        margin-left: 5px;
+    }
+}
+
+.wenge-btn:hover {
+    background-color: #846A73;
+}
+
+.granite-btn {
+    background-color: #30333B;
+}
+
+.granite-btn:hover {
+    background-color: #444853;
+}
+
+
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
